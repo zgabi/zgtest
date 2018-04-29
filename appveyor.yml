@@ -9,3 +9,6 @@ before_build:
 build:
   project: Test.sln
   verbosity: detailed
+
+after_build:
+  - ps: .\pack.ps1
