@@ -4,4 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Fizzler" Version="1.2.0" />
+    <PackageReference Include="Fizzler.Systems.HtmlAgilityPack" Version="1.1.1" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.8.1" />
+  </ItemGroup>
+
 </Project>
