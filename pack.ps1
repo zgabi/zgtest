@@ -1,4 +1,4 @@
-$d = Date -format "yyyyMMdd"
+$d = Get-Date -format "yyyyMMdd"
 $minDir = "min-"+$d
 $gDir = "g-"+$d
 
