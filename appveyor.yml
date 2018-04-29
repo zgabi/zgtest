@@ -3,4 +3,4 @@ configuration: Release
 platform: Any CPU
 build:
   project: Test.sln
-  verbosity: minimal
+  verbosity: detailed
