@@ -12,5 +12,5 @@ copy TestG\bin\Release\*.dll $gDir
 copy TestG\bin\Release\*.exe $gDir
 copy TestG\bin\Release\*.config $gDir
 
-.\7z a $minDir".zip" $minDir
-.\7z a $gDir".zip" $gDir
+7z a $minDir".zip" $minDir
+7z a $gDir".zip" $gDir
